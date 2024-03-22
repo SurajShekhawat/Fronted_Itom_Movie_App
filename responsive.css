@@ -1,0 +1,16 @@
+@media only screen and (max-width: 599px) {
+    .swiper-slide img {
+      max-width: 14rem;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .swiper-slide img {
+      max-width: 10.5rem;
+      border-radius: 2px;
+    }
+  }
